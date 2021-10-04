@@ -7,7 +7,7 @@
     @csrf
     @method('delete')
         <h6 class="mt-2 mb-3">
-            Delete this item {{ $item->name }}? 
+            Do you want to delete the item, {{$item->name}}?
         </h6>
         <div>
             <button class="btn btn-danger" style="width: 100%;">Delete</button>
